@@ -36,7 +36,7 @@ def content_percentage(video, categories):
     """
     
     duration = total_segment_duration(video, categories)
-    percentage = (video["length (s)"] - duration) / video["length (s)"]
+    percentage = (video["length"] - duration) / video["length"]
     return "{:.3f}".format(round(percentage,3))
 
 
@@ -57,7 +57,7 @@ def segment_percentage(video, categories):
     """
     
     duration = total_segment_duration(video, categories)
-    percentage = duration / video["length (s)"]
+    percentage = duration / video["length"]
     return "{:.3f}".format(round(percentage,3))
 
 
