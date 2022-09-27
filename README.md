@@ -11,8 +11,9 @@ The main purpose of this repo was to familiarize myself with the Pandas python l
 SponsorBlock is a [Chrome extension](https://sponsor.ajay.app/), created in July of 2019 by Ajay Ramachandran, which allows users to automatically skip sponsorship segments in YouTube videos. It relies on a crowdsourced approach where users submit segments to a database, which can be voted on by other users, with the highest voted segments being distributed to the general userbase
 
 <p align="center">
-	<img src="images/sb_scrubber_1.png" alt="sb_scrubber_1" width="750"/>
+	<img src="gifs/sponsorblock_example.gif" width="300" height="80" />
 </p>
+
 
 At the time of writing it has X active users, Y total user submited segments, and has saved people a upwards of Z years in wasted time. 
 
