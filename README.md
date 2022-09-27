@@ -2,6 +2,8 @@
 
 This repo contains tools for visualization of SponsorBlock segments and their statistics across a given YouTube channel.
 
+**Explore this project yourself through mybinder.org:** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CharlesCardot/SponsorBlockStats/HEAD)
+
 ## Goals
 
 The main purpose of this repo was to familiarize myself with the Pandas python library and to get some experience with interactive plots in Matplotlib. Additionally, I wanted to create some tools for feature engineering that could potentially be used in a future data science project.
