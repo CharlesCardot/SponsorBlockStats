@@ -127,7 +127,6 @@ def get_rawdata(urls, update = False):
         else:
             for url in urls:
                 if pytube.extract.video_id(url) not in pd.DataFrame(raw_database)["video_id"].tolist():
-                    print(url)
                     data_chunk = get_video_rawdata(client=client,url=url)
                     if (data_chunk):
                         raw_database = raw_database + data_chunk
