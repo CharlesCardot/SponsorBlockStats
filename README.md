@@ -4,7 +4,7 @@ This repo contains tools for visualization of SponsorBlock segments and their st
 
 ## Goals
 
-The main purpose of this repo was to familiarize myself with the Pandas python library and to get some experience with interactive plots in Matplotlib. Additionally, I wanted to create some tools for feature engineering that could potentially be used in a future data science project.
+The main purpose of this project was to familiarize myself with the Pandas python library and test out interactive plots in Matplotlib. Additionally, I wanted to create some tools for feature engineering that could be used in a future data science project.
 
 ## SponsorBlock
 
@@ -44,10 +44,13 @@ All of this comes together to provide an opensource, publicly validated database
 
 Linus Tech Tips is a popular channel and is well known for having multiple sponsored segments per video, as well as frequently promoting their merchandise.
 
+
+- ### Total duration of all segments, broken down by segment type
 <p align="center">
 	<img src="images/StackedSegBar.svg" alt="Stacked Segment Bar Chart" width="750"/>
 </p>
 
+- ### Content percentage, calculated by $ (\mathrm{Total \, \, Length} - \sum \mathrm{Segment \, \, Length}) \over \mathrm{Total \, \, Length} $
 <p align="center">
 	<img src="images/ScatterContentPercentage.svg" alt="Scatter Plot, Content Percentage" width="750"/>
 </p>
