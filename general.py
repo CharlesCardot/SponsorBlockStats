@@ -141,7 +141,8 @@ def get_rawdata(urls, update = False):
     with open("raw_database.pickle", "wb") as f:
         pickle.dump(data,f)
     
-    data = [single_data for single_data in data if single_data["video_id"] in pd.DataFrame(data)["video_id"].tolist()]
+    data = [single_data for single_data in data 
+        if single_data["video_id"] in [pytube.extract.video_id(url) for url in urls]]
     return data    
         
 
