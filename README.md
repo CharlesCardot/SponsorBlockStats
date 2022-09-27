@@ -50,7 +50,7 @@ Linus Tech Tips is a popular channel and is well known for having multiple spons
 	<img src="images/StackedSegBar.svg" alt="Stacked Segment Bar Chart" width="750"/>
 </p>
 
-- Content percentage, calculated by $(\text{Total Length}-\sum\text{Segment Length}) / \text{Total Length}$
+- Content percentage, calculated by $(\text{Total Length}-\sum\text{Segment Length}) / (\text{Total Length})$
 <p align="center">
 	<img src="images/ScatterContentPercentage.svg" alt="Scatter Plot, Content Percentage" width="750"/>
 </p>
