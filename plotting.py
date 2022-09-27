@@ -176,6 +176,10 @@ def make_channel_plot(channel_df, x_axis, plot_type, include = [], exclude = [],
     ax.set_ylabel(ylabel,fontsize=20)
     ax.set_title(title,fontsize=20)
     
+    from pathlib import Path
+    fname = Path("images") / str(plot_type + ".svg")
+
+    plt.savefig(fname, format="svg")
     plt.show()
     
         
