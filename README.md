@@ -52,7 +52,7 @@ Linus Tech Tips is a popular channel and is well known for having multiple spons
 
 
 
-- Content percentage, calculated by $(\mathrm{Total} \, \mathrm{Length}-\sum\mathrm{Segment} \, \mathrm{Length}) / \mathrm{Total} \, \mathrm{Length}$
+- Content percentage, calculated by $(\mathrm{Total Length}-\sum\mathrm{Segment Length}) / \mathrm{Total Length}$
 <p align="center">
 	<img src="images/ScatterContentPercentage.svg" alt="Scatter Plot, Content Percentage" width="750"/>
 </p>
