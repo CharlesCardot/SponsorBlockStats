@@ -52,6 +52,15 @@ Linus Tech Tips is a popular channel and is well known for having multiple spons
 	<img src="images/ScatterContentPercentage.svg" alt="Scatter Plot, Content Percentage" width="750"/>
 </p>
 
+
+<div class="table-wrapper" markdown="block">
+
+|      | col_name1 | col_name2 | col_name3 | col_name4 | col_name5 | col_name6 | col_name7 | col_name8 | col_name9 | col_name0 |
+|------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| row1 |           |           |           |           |           |           |           |           |           |           |
+| row2 |           |           |           |           |           |           |           |           |           |           |
+
+</div>
 ## Requirements
 The only specialty packages required is the Python wrapper for the SponsorBlock API
 - ```sponsorblock.py v0.2.2```. See <https://github.com/wasi-master/sponsorblock.py>.
